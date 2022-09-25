@@ -2,6 +2,7 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+    position: relative;
 }
 .header{
     background-color: #4c5264;
@@ -70,5 +71,11 @@
   .apiKeyHolder{
     height: 20px;
     width: 150px;
+  }
+  .displayPanel{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 200px;
+    padding: 50px;
   }
   
