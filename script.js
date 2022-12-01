@@ -12,7 +12,7 @@ const sendHTTPRequest= (method,url,data)=>{
         const xhr= new XMLHttpRequest();
         xhr.open(method,url);
         xhr.responseType='json';
-    xhr.setRequestHeader('X-APTRINSIC-API-KEY','6234ac6d-ed3b-41c9-9343-88eb319b0e30');
+    xhr.setRequestHeader('X-APTRINSIC-API-KEY','');
     xhr.setRequestHeader('Connection','keep-alive');
     xhr.setRequestHeader('Accept','*/*');
     xhr.setRequestHeader('Accept-Encoding','gzip, deflate, br');
